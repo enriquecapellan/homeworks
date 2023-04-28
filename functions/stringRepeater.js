@@ -1,1 +1,0 @@
-function stringRepeater(str, num) {}

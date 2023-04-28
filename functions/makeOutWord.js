@@ -1,0 +1,1 @@
+function makeOutWord(word, tag) {}
