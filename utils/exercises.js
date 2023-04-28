@@ -35,11 +35,11 @@ const exercises = [
 			},
 			{
 				params: ["!!", "World"],
-				expected: "!!World!!"
+				expected: "!World!"
 			},
 			{
-				params: ["<>", "CodingBat"],
-				expected: "<CodingBat>"
+				params: ["{}", "CodingBat"],
+				expected: "{CodingBat}"
 			}
 		]
 	},

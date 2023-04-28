@@ -35,7 +35,9 @@ class TestRunner {
 	runTests() {
 		const testsTable = document.querySelector("#test-table");
 		while (testsTable.firstChild) testsTable.firstChild.remove();
-		const { funcName, types, tests, func } = this.exercise;
+		const { funcName, params, tests, func } = this.exercise;
+
+		const types = params.map(({ type }) => type);
 
 		tests.forEach((test) => {
 			const testRow = document.createElement("tr");
