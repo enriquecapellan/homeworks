@@ -26,8 +26,8 @@ const exercises = [
 		],
 		tests: [
 			{
-				params: ["<<>>", "Goodbye"],
-				expected: "<<Goodbye>>"
+				params: ["----", "Goodbye"],
+				expected: "--Goodbye--"
 			},
 			{
 				params: ["[[[]]]", "Hello"],
